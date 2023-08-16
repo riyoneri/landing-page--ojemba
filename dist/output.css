@@ -711,10 +711,22 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.font-montserrat-bold {
-  font-family: Montserrat-Bold;
+.flex {
+  display: flex;
 }
 
-.underline {
-  text-decoration-line: underline;
+.h-\[66\.465px\] {
+  height: 66.465px;
+}
+
+.w-\[223\.509px\] {
+  width: 223.509px;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
 }
