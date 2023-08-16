@@ -710,3 +710,11 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.font-montserrat-bold {
+  font-family: Montserrat-Bold;
+}
+
+.underline {
+  text-decoration-line: underline;
+}
