@@ -32,9 +32,9 @@ module.exports = {
         "roboto-regular": "Roboto-Regular",
       },
       colors: {
-        "main-blue": "#001342",
-        "main-light-green": "#8ACC50",
-        "main-dark-green": "#116355",
+        "blue-dark": "#001342",
+        "green-light": "#8ACC50",
+        "green-lighter": "#116355",
       },
     },
   },
