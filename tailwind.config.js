@@ -48,7 +48,10 @@ module.exports = {
       },
       space: {
         '2px': '2',
+      }
+
       },
+
     },
     container: {
       center: true,
