@@ -37,6 +37,12 @@ module.exports = {
         "green-darker": "#116355",
         "gray-dark": "rgba(4, 4, 4, 0.51)"
       },
+      fontSize: {
+        '7xl': '7rem',
+    },
+    space: {
+      '2px': '2',
+    }
     },
     container: {
       center: true
