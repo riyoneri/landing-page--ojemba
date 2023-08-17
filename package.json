@@ -5,7 +5,7 @@
   "main": "tailwind.config.js",
   "scripts": {
     "start": "tailwindcss -i \"src\\input.css\" -o \"dist\\output.css\" --watch",
-    "build": "tailwindcss -i \"src\\input.css\" -o \"dist\\output.css\""
+    "build": "tailwindcss -i \"src\\input.css\" -o \"dist\\output.css\" --watch"
   },
   "keywords": [],
   "author": "",
