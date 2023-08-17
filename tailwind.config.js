@@ -44,10 +44,10 @@ module.exports = {
       },
       fontSize: {
         '7xl': '7rem',
-      }
+      },
+      space: {
+        '2px': '2',
     },
-    space: {
-      '2px': '2',
     },
     container: {
       center: true,
