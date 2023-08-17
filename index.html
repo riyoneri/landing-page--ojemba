@@ -15,13 +15,14 @@
     };
 
     window.onload = () => {
-      loadComponents("header", "src/sections/header.html");
-      loadComponents("unsereteam", "src/sections/unsereteam.html"); 
+      loadComponents("header", "./src/sections/header.html");
+      loadComponents("managed-teams", "./src/sections/managed-teams.html");
+      loadComponents("unsereteam", "./src/sections/unsereteam.html");
     };
   </script>
-  <body>
+  <body class="px-12">
     <div id="header"></div>
-    <p>Hello world!!</p>
     <div id="unsereteam"></div>
+    <div id="managed-teams"></div>
   </body>
 </html>
