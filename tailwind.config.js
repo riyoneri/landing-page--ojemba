@@ -42,6 +42,11 @@ module.exports = {
       height: {
         line: "0.2rem"
       }
+      fontSize: {
+        '7xl': '7rem',
+    },
+    space: {
+      '2px': '2',
     },
     container: {
       center: true,
