@@ -17,12 +17,30 @@
     window.onload = () => {
       loadComponents("header", "./src/sections/header.html");
       loadComponents("managed-teams", "./src/sections/managed-teams.html");
+      loadComponents("african-team-box", "./src/sections/african-team-box.html");
       loadComponents("unsereteam", "./src/sections/unsereteam.html");
     };
   </script>
-  <body class="px-12">
-    <div id="header"></div>
-    <div id="unsereteam"></div>
-    <div id="managed-teams"></div>
+  <body class="">
+    <div class="h-screen gradient-header">
+      <div id="header"></div>
+    </div>
+    
+    <div class="pt-10 bg-gray-light bottom-shape pb-28">
+      <div id="managed-teams"></div>
+      <div id="african-team-box"></div>
+    </div>
+    
+    <div class="-mt-10 gradient-unsere-teams">
+      <div id="unsereteam"></div>
+    </div>
+
+    <div class="bg-blue-dark bottom-shape">
+      <!-- video section -->
+    </div>
+
+    <div class="">
+      <!-- Sponsors -->
+    </div>
   </body>
 </html>
