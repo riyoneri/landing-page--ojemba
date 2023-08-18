@@ -40,18 +40,18 @@ module.exports = {
         "blue-dark": "#001342",
       },
       height: {
-        line: "0.2rem"
+        line: "0.2rem",
+        "maiborn-video": "52rem",
       },
       fontSize: {
-        '7xl': '7rem',
+        "7xl": "7rem",
       },
       space: {
-        '2px': '2',
-      }
+        "2px": "2",
+      },
     },
     container: {
       center: true,
     },
   },
-  plugins: [],
-}
+};
