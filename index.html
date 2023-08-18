@@ -1,106 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="dist/output.css" />
-    <script src="assets/js/scripts.js" defer></script>
-    <title>Web site project</title>
-  </head>
-  <script>
-    const loadComponents = (id, url) => {
-      fetch(url)
-        .then((response) => response.text())
-        .then((html) => (document.getElementById(id).innerHTML = html));
-    };
 
-    window.onload = () => {
-      loadComponents("header", "./src/sections/header.html");
-      loadComponents("managed-teams", "./src/sections/managed-teams.html");
-      loadComponents(
-        "african-team-box",
-        "./src/sections/african-team-box.html"
-      );
-      loadComponents("unsereteam", "./src/sections/unsereteam.html");
-      loadComponents(
-        "trainings-program",
-        "./src/sections/trainings-program.html"
-      );
-      loadComponents(
-        "maibornwolf-video",
-        "./src/sections/maibornwolf-video.html"
-      );
-      loadComponents("sponsors", "./src/sections/sponsors.html");
-      loadComponents("founders", "./src/sections/founders.html");
-      loadComponents("skillset", "./src/sections/skillset.html");
-      loadComponents("fragen", "./src/sections/fragen.html");
 
-      loadComponents("footer", "./src/sections/footer.html");
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="dist/output.css" />
+  <script src="assets/js/scripts.js" defer></script>
+  <title>Web site project</title>
+</head>
+<script>
+  const loadComponents = (id, url) => {
+    fetch(url)
+      .then((response) => response.text())
+      .then((html) => (document.getElementById(id).innerHTML = html));
+  };
 
-      loadComponents("african-map", "./src/sections/african-map.html");
-      loadComponents("info", "./src/sections/info.html");
+  window.onload = () => {
+    loadComponents("header", "./src/sections/header.html");
+    loadComponents("managed-teams", "./src/sections/managed-teams.html");
+    loadComponents(
+      "african-team-box",
+      "./src/sections/african-team-box.html"
+    );
+    loadComponents("unsereteam", "./src/sections/unsereteam.html");
+    loadComponents(
+      "trainings-program",
+      "./src/sections/trainings-program.html"
+    );
+    loadComponents(
+      "maibornwolf-video",
+      "./src/sections/maibornwolf-video.html"
+    );
+    loadComponents("sponsors", "./src/sections/sponsors.html");
+    loadComponents("founders", "./src/sections/founders.html");
+    loadComponents("skillset", "./src/sections/skillset.html");
 
-    };
-  </script>
-  <body class="">
-    <!-- Header -->
-    <div class="h-screen gradient-header">
-      <div id="header"></div>
-    </div>
+    loadComponents("footer", "./src/sections/footer.html");
 
-    <!-- Managed Teams -->
-    <div class="pt-10 bg-gray-light bottom-shape pb-28">
-      <div id="managed-teams"></div>
-      <div id="african-team-box"></div>
-      <div id="fragen"></div>
-    </div>
+    loadComponents("african-map", "./src/sections/african-map.html");
+    loadComponents("info", "./src/sections/info.html");
 
-    <!-- Unsere Teams -->
-    <div class="-mt-10 gradient-unsere-teams">
-      <div id="unsereteam"></div>
-      <div id="skillset"></div>
-    </div>
+  };
+</script>
 
-    <!-- Training Program -->
-    <div class="pt-10 text-white pb-14 bg-blue-dark bottom-shape">
-      <div id="trainings-program"></div>
-      <div id="maibornwolf-video"></div>
-    </div>
+<body class="">
+  <!-- Header -->
+  <div class="gradient-header">
+    <div id="header"></div>
+  </div>
 
-    <!-- Sponsors -->
-    <div class="">
-      <div id="sponsors"></div>
-    </div>
+  <!-- Managed Teams -->
+  <div class="pt-10 bg-gray-light bottom-shape pb-28">
+    <div id="managed-teams"></div>
+    <div id="african-team-box"></div>
+  </div>
 
-    <!-- Die Founder -->
+  <!-- Unsere Teams -->
+  <div class="-mt-20 gradient-unsere-teams bottom-shape pb-52 ">
+    <div id="unsereteam"></div>
+    <div id="skillset"></div>
+  </div>
 
-    <div class="gradient-die-founder">
+  <!-- Training Program -->
+  <div class="pt-10 text-white pb-14 bg-blue-dark bottom-shape">
+    <div id="trainings-program"></div>
+    <div id="maibornwolf-video"></div>
+  </div>
 
-    <div class="">
+  <!-- Sponsors -->
+  <div class="bottom-shape">
+    <div id="sponsors"></div>
+  </div>
 
-    </div>
+  <!-- Die Founder -->
 
-    <!-- Rwanda Section -->
-    <div class="pt-32 pb-52 bg-blue-dark">
-      <div id="founders"></div>
-      <div id="african-map"></div>
-    </div>
-    
-    <!-- Info Section -->
-    <div class="gradient-info bottom-shape">
-      <div id="info"></div>
-    </div>
+  <div class="gradient-die-founder relative bottom-shape">
+    <div id="founders"></div>
+  </div>
 
-    <!-- Fragen Section -->
-    <div class=""></div>
+  <!-- Rwanda Section -->
+  <div class="pt-32 relative bg-blue-dark">
+    <div id="african-map"></div>
+  </div>
 
-    <!-- Footer -->
+  <!-- Info Section -->
+  <div class="gradient-info bottom-shape">
+    <div id="info"></div>
+  </div>
 
-    <div class="gradient-footer">
-      <div id="footer"></div>
-    </div>
+  <!-- Fragen Section -->
+  <div class=""></div>
 
-    <div class=""></div>
+  <!-- Footer -->
 
-  </body>
+  <div class="gradient-footer">
+    <div id="footer"></div>
+  </div>
+
+  <div class=""></div>
+
+</body>
+
 </html>
