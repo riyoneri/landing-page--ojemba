@@ -148,14 +148,6 @@
     background: linear-gradient(299deg, rgba(138, 204, 80, 0.50) 14.06%, rgba(0, 0, 0, 0.00) 100%), #001342;
 }
 
-.bottom-shape {
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 95%);
-}
-
-.founders-shape {
-    clip-path: polygon(0 25%, 40% 20%, 50% 0, 65% 25%, 100% 30%, 100% 100%, 0 80%)
-}
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

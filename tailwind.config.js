@@ -53,5 +53,10 @@ module.exports = {
     container: {
       center: true,
     },
+    clipPath: {
+      "bottom-shape": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 95%)",
+      "bottom-shape-sm": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 99%)",
+    },
   },
+  plugins: [require("tailwind-clip-path")],
 };
