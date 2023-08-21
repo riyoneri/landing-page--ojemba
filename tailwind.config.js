@@ -41,7 +41,7 @@ module.exports = {
       },
       height: {
         line: "0.2rem",
-        "maiborn-video": "52rem",
+        "maiborn-video": "30rem",
       },
       fontSize: {
         "7xl": "7rem",
@@ -56,6 +56,10 @@ module.exports = {
     clipPath: {
       "bottom-shape": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 95%)",
       "bottom-shape-sm": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 99%)",
+      "founders-shape":
+        "polygon(0 25%, 40% 20%, 50% 0, 65% 25%, 100% 30%, 100% 100%, 0 90%)",
+      "founder-shape-sm":
+        "polygon(0 25%, 40% 20%, 50% 0, 65% 10%, 100% 0, 100% 100%, 0 99%)",
     },
   },
   plugins: [require("tailwind-clip-path")],
