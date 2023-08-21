@@ -42,7 +42,9 @@ module.exports = {
 
       height: {
         line: "0.2rem",
-        "maiborn-video": "52rem",
+        "maiborn-video": "30rem",
+        "founders-lg": "28.125rem",
+        "founders-sm": "34.375rem"
       },
       fontSize: {
         "7xl": "7rem",
@@ -54,5 +56,14 @@ module.exports = {
     container: {
       center: true,
     },
+    clipPath: {
+      "bottom-shape": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 95%)",
+      "bottom-shape-sm": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 99%)",
+      "founders-shape":
+        "polygon(0 25%, 40% 20%, 50% 0, 65% 25%, 100% 30%, 100% 100%, 0 90%)",
+      "founder-shape-sm":
+        "polygon(0 5%, 40% 5%, 50% 0, 65% 10%, 100% 10%, 100% 100%, 0 99%)",
+    },
   },
+  plugins: [require("tailwind-clip-path")],
 };
