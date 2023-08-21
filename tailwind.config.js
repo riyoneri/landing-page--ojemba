@@ -44,7 +44,8 @@ module.exports = {
         line: "0.2rem",
         "maiborn-video": "30rem",
         "founders-lg": "28.125rem",
-        "founders-sm": "34.375rem"
+        "founders-sm": "34.375rem",
+        "line-through": "0.3rem",
       },
       fontSize: {
         "7xl": "7rem",
