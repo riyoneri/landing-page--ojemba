@@ -39,6 +39,7 @@ module.exports = {
         "gray-light": "#F1F4F6",
         "blue-dark": "#001342",
       },
+
       height: {
         line: "0.2rem",
         "maiborn-video": "52rem",
