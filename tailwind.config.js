@@ -59,7 +59,7 @@ module.exports = {
       "founders-shape":
         "polygon(0 25%, 40% 20%, 50% 0, 65% 25%, 100% 30%, 100% 100%, 0 90%)",
       "founder-shape-sm":
-        "polygon(0 25%, 40% 20%, 50% 0, 65% 10%, 100% 0, 100% 100%, 0 99%)",
+        "polygon(0 25%, 40% 20%, 50% 0, 65% 10%, 100% 20%, 100% 100%, 0 99%)",
     },
   },
   plugins: [require("tailwind-clip-path")],
