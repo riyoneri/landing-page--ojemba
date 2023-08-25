@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["**/*.{html,js}"],
+  plugins: [require("tailwind-clip-path")],
   theme: {
     extend: {
       fontFamily: {
@@ -61,10 +62,9 @@ module.exports = {
       "bottom-shape": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 95%)",
       "bottom-shape-sm": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 99%)",
       "founders-shape":
-        "polygon(0 25%, 40% 20%, 50% 0, 65% 25%, 100% 30%, 100% 100%, 0 90%)",
+        "polygon(0 15%, 45% 11%, 50% 0, 65% 15%, 100% 20%, 100% 100%, 0 90%)",
       "founder-shape-sm":
-        "polygon(0 5%, 40% 5%, 50% 0, 65% 10%, 100% 10%, 100% 100%, 0 99%)",
+        "polygon(0 15%, 40% 13%, 50% 0, 65% 15%, 100% 15%, 100% 100%, 0 99%)",
     },
   },
-  plugins: [require("tailwind-clip-path")],
 };
