@@ -61,6 +61,7 @@ module.exports = {
     clipPath: {
       "bottom-shape": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 95%)",
       "bottom-shape-sm": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 99%)",
+      "bottom-shape-info": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 75%)",
       "founders-shape":
         "polygon(0 15%, 45% 11%, 50% 0, 65% 15%, 100% 20%, 100% 100%, 0 90%)",
       "founder-shape-sm":
