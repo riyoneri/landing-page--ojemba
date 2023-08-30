@@ -43,7 +43,9 @@ module.exports = {
 
       height: {
         line: "0.2rem",
-        "maiborn-video": "30rem",
+        "maiborn-video": "39rem",
+        "maiborn-video-md": "20rem",
+        "maiborn-video-sm": "10rem",
         "founders-lg": "28.125rem",
         "founders-sm": "34.375rem",
         "line-through": "0.3rem",
