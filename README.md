@@ -30,10 +30,20 @@ After you learn how to collaborate via GitHub and other tools that are needed in
 
 in order to start this project or enable tailwindcss just run this command: 
 
-* npm
+* clone this repository 
   ```sh
-  npm start
+  git clone https://github.com/riyoneri/landing-page--ojemba.git 
   ```
+
+-  Enter the project directory
+  ```
+cd landing-page--ojemba
+```
+- Install Dependencies and start tailwind server
+  ```
+  npm install
+  ```
+  
 
 <!-- CONTACT -->
 ## Contact
