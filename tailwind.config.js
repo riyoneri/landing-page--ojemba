@@ -42,13 +42,13 @@ module.exports = {
       },
 
       height: {
-        line: "0.2rem",
-        "maiborn-video": "39rem",
-        "maiborn-video-md": "20rem",
-        "maiborn-video-sm": "10rem",
-        "founders-lg": "28.125rem",
-        "founders-sm": "34.375rem",
-        "line-through": "0.3rem",
+        "1/125": "0.2rem",
+        "39": "39rem",
+        "4/5": "20rem",
+        "2/5": "10rem",
+        "9/8": "28.125rem",
+        "11/8": "34.375rem",
+        "3/250": "0.3rem",
       },
       fontSize: {
         "7xl": "7rem",
